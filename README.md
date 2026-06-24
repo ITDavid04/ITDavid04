@@ -67,5 +67,3 @@ jeweils mit IHK-Relevanzmarkierungen, ASCII-Diagrammen und Glossaren.
 Ich freue mich über Praktikumsanfragen und Einstiegsmöglichkeiten im Bereich  
 Applikationsentwicklung, Softwarearchitektur oder Linux-nahe Entwicklung.
 
-> *Dieses Portfolio entstand im Rahmen meiner IHK-Umschulung 2024–2026.*
--->
