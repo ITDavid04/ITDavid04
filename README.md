@@ -1,10 +1,12 @@
 # 👋 Hi, ich bin David
 
 IT-Umschüler im zweiten Jahr der Ausbildung zum **Fachinformatiker Anwendungsentwicklung (FIAE)**  
-📍 Hamburg · 🎓 IHK-Abschluss 2026 · 🐧 Linux Daily Driver
+📍 Hamburg · 🎓 IHK-Abschluss 2027 · 🐧 Linux Daily Driver
 
 Ich bringe einen handwerklichen Hintergrund mit und habe den Sprung in die IT bewusst gewählt.  
 Mein Fokus liegt auf Linux-Systemadministration, Automatisierung und sauber strukturierter Softwareentwicklung.
+
+Im folgendem zu finden einige Einblicke in einige Projekte.
 
 ---
 
