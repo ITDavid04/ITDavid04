@@ -52,6 +52,18 @@ jeweils mit IHK-Relevanzmarkierungen, ASCII-Diagrammen und Glossaren.
 
 ---
 
+### 🧠 [LLM-Claude-Skills-etc](https://github.com/ITDavid04/LLM-Claude-Skills-etc)
+**Markdown · Claude Skills · Gemini Gems**
+
+Kuratierte Sammlung eigener Claude Skills und Gemini Gems für die FIAE/FISI-Umschulung —
+darunter ein Skill zur IHK-konformen Wiki-Artikel-Erstellung (mit ROT/GELB/GRÜN-Relevanzmarkierung)
+und ein Bewerbungscoach-Skill für ATS-optimierte Lebensläufe. Inklusive Kurzanleitungen
+zur Einrichtung in Claude und Gemini.
+
+> Ergänzt das Lern-Wiki um die Werkzeugebene: nicht nur *was* gelernt wird, sondern *womit*.
+
+---
+
 ## 🛠️ Skills
 
 | Bereich | Technologien |
@@ -60,6 +72,7 @@ jeweils mit IHK-Relevanzmarkierungen, ASCII-Diagrammen und Glossaren.
 | Linux / Sysadmin | Ubuntu, CachyOS, Shell-Scripting, cloud-init, LUKS, TPM 2.0, KVM |
 | Automatisierung | Autoinstall-YAML, Postinstall-Scripting, Bash |
 | Dokumentation | Markdown, strukturierte Wissensvermittlung, IHK-Curriculum |
+| KI / LLM | Claude Skills, Gemini Gems, Prompt Engineering |
 | Tools | Git, VS Code, QEMU/Virt-Manager, Flatpak |
 
 ---
@@ -68,4 +81,3 @@ jeweils mit IHK-Relevanzmarkierungen, ASCII-Diagrammen und Glossaren.
 
 Ich freue mich über Praktikumsanfragen und Einstiegsmöglichkeiten im Bereich  
 Applikationsentwicklung, Softwarearchitektur oder Linux-nahe Entwicklung.
-
