@@ -4,63 +4,56 @@ IT-Umschüler im zweiten Jahr der Ausbildung zum **Fachinformatiker Anwendungsen
 📍 Hamburg · 🎓 IHK-Abschluss 2027 · 🐧 Linux Daily Driver
 
 Ich bringe einen handwerklichen Hintergrund mit und habe den Sprung in die IT bewusst gewählt.  
-Mein Fokus liegt auf Linux-Systemadministration, Automatisierung und sauber strukturierter Softwareentwicklung.
+Mein Fokus liegt auf Anwendungsentwicklung, Linux und Automatisierung. Zuletzt baue ich vor allem Web-Apps, die beim Lernen in der Umschulung helfen und auf dem Handy auch offline laufen.
 
-Im folgendem zu finden einige Einblicke in einige Projekte.
+Hier meine aktuellen Projekte, das neueste zuerst.
 
 ---
 
 ## 🗂️ Projekte
 
-### 🖥️ [Ubuntu 26.04 Autoinstall – Final](https://github.com/ITDavid04/Autoinstall_Ubuntu26.04-Final)
-**Shell · cloud-init · LUKS · TPM 2.0**
+### 📚 [Wiki-APP](https://github.com/ITDavid04/Wiki-APP)
+**JavaScript · PWA · three.js · GitHub Actions**
 
-Vollautomatische Ubuntu-Installation für Schulungsrechner auf Basis eines Standard-ISO —
-kein vorkonfiguriertes Image nötig. Unterstützt Online- und Offline-Betrieb, LUKS-Vollverschlüsselung
-mit TPM 2.0 Hardware-Entsperrung sowie ein zweistufiges Postinstall-Skript für die komplette
-Softwareeinrichtung (Firefox, VS Code, KVM, Flatpak, UFW).
+Das Lern-Wiki unseres Umschulungsteams als installierbare Web-App für Handy und Desktop. Auf der Startseite wächst beim Scrollen eine 3D-Ranke mit, jedes Blatt ist ein Artikel. Artikel lassen sich direkt in der App lesen, mit Formeln (KaTeX) und farbig markierter Prüfungsrelevanz nach Ampel. Pro Artikel merkt sich die App den Lernstand, ein Prüfungsmodus zeigt, was noch offen ist, und ein Leseausweis sammelt Stempel für Meilensteine. Nach dem ersten Besuch läuft alles offline. Fehler in einem Artikel lassen sich aus der App heraus als GitHub-Issue melden.
 
-> Weiterentwicklung des 24.04-Projekts mit deutlich saubererer Architektur und echtem Offline-Support.
+Ein GitHub-Actions-Workflow holt jede Nacht die neuen Artikel, baut die App, testet sie automatisch im Browser (Puppeteer) und veröffentlicht sie auf GitHub Pages. Die Versionsnummer zählt sich dabei selbst hoch.
 
----
-
-### 🖥️ [Ubuntu 24.04 Autoinstall](https://github.com/ITDavid04/Autoinstall-Linux-24.04-LTS)
-**Shell · cloud-init · LUKS · custom ISO**
-
-Erste Generation des Autoinstall-Projekts: vorkonfiguriertes ISO mit eingebettetem Autoinstall-YAML,
-LUKS-Verschlüsselung per nachträglichem Workaround, angepasstes GRUB-Layout.
-Zeigt den Lernweg und die Problemlösung unter realen Einschränkungen.
+▶️ **Live:** [itdavid04.github.io/Wiki-APP](https://itdavid04.github.io/Wiki-APP/)
 
 ---
 
-### 🎲 [Würfelspiel – ANSI · SQLite · DDD](https://github.com/ITDavid04/Wuerfelspiel-Ansii-Datenbank-umsetzung-12.05.2026)
-**Python · SQLite · Domain-Driven Design**
+### ⚔️ [Prüfungsprügler](https://github.com/ITDavid04/Souls_Pruefungspruegler)
+**JavaScript · PWA · Lernkasten**
 
-CLI-Würfelspiel mit visuell aufgewerteter ANSI-Ausgabe, SQLite-Datenbankanbindung für
-persistente Spielstandspeicherung und konsequenter Umsetzung des DDD-Schichtmodells
-(`domain / application / infrastructure / interface`). Enthält Unit-Tests für die Speicherlogik.
+Lernkarten für die AP1 (Lernfeld 1 bis 6) als Souls-like fürs Handy, mit 434 Karten. Richtig bringt Seelen, falsch kostet Leben. Wer stirbt, lässt seine Seelen bei der Karte liegen, die ihn erledigt hat, und holt sie sich im nächsten Gang zurück. Ein Gang hat zehn Karten und passt in eine Bahnfahrt, nach drei Lagerfeuern wartet der Boss des Lernfelds. Dahinter steckt ein Lernkasten mit fünf Fächern (Wiederholung nach 0, 1, 3, 7 und 14 Tagen). Ohne Framework gebaut, der Spielstand bleibt auf dem Gerät.
 
----
+▶️ **Live:** [itdavid04.github.io/Souls_Pruefungspruegler](https://itdavid04.github.io/Souls_Pruefungspruegler/)
 
-### 📚 [Bibliothek-Lern-Wiki](https://github.com/ITDavid04/Bibliothek-Lern-Wiki)
-**Markdown · FIAE / FISI · IHK-Curriculum**
-
-Selbst aufgebaute Wissensdatenbank für IT-Umschüler — entstanden aus dem Bedürfnis,
-komplexe Themen verständlich und prüfungsrelevant aufzubereiten. Strukturierte Deep-Dive-Artikel
-zu IoT, Netzwerken, Containerinfrastruktur, Kryptographie und Softwarearchitektur,
-jeweils mit IHK-Relevanzmarkierungen, ASCII-Diagrammen und Glossaren.
+> Stand: Prototyp vom Kernablauf. Geplant sind die AP2-Karten und der Prüfungsausschuss als letzter Boss.
 
 ---
 
 ### 🧠 [LLM-Claude-Skills-etc](https://github.com/ITDavid04/LLM-Claude-Skills-etc)
-**Markdown · Claude Skills · Gemini Gems**
+**Markdown · Python · Claude Skills · Gemini Gems**
 
-Kuratierte Sammlung eigener Claude Skills und Gemini Gems für die FIAE/FISI-Umschulung —
-darunter ein Skill zur IHK-konformen Wiki-Artikel-Erstellung (mit ROT/GELB/GRÜN-Relevanzmarkierung)
-und ein Bewerbungscoach-Skill für ATS-optimierte Lebensläufe. Inklusive Kurzanleitungen
-zur Einrichtung in Claude und Gemini.
+Meine Sammlung eigener Claude Skills und Gemini Gems rund um Umschulung, Prüfung und Bewerbung, mit Kurzanleitungen zur Einrichtung. Darunter:
 
-> Ergänzt das Lern-Wiki um die Werkzeugebene: nicht nur *was* gelernt wird, sondern *womit*.
+- **wiki-fiae**: erstellt und prüft Wiki-Artikel im IHK-Prüfungsformat mit ROT/GELB/GRÜN-Markierung
+- **lockeres-lernmaterial** und **natuerliche-konversation**: Lerntexte und Chat-Antworten, die sich natürlich lesen, ohne an fachlicher Genauigkeit zu verlieren
+- **token-sparmodus**: Arbeitsweise für Claude Code gegen hohe Tokenkosten, mit Python-Werkzeug und Installationsskript
+- **it-bewerbungscoach-2026**, **praktikanten-search** und **firmen-briefing-fiae**: Bewerbung, Praktikumssuche und Vorbereitung aufs Vorstellungsgespräch
+- **workshop-planer-2026**: Workshop-Pläne mit Zeitraster für Dozent:innen
+- sechs Gemini Gems, zum Beispiel ein Python-Tutor und ein EduScrum-Transformer
+
+---
+
+### 🖥️ [Ubuntu 26.04 Autoinstall](https://github.com/ITDavid04/Autoinstall_Ubuntu26.04-Final)
+**Shell · cloud-init · LUKS · TPM 2.0**
+
+Vollautomatische Installation von Ubuntu 26.04 für Schulungsrechner. Die Autoinstall-Konfiguration wird mit Cubic in ein Standard-ISO eingebettet, danach läuft die Installation ohne einen einzigen Klick durch. Eine ThinkPad-Variante verschlüsselt die Platte mit LUKS und entsperrt sie über TPM 2.0. Nach dem ersten Login richtet ein Postinstall-Skript mit einem Befehl den Rest ein (Firewall, SSH, Firefox als .deb, VS Code, KVM, Flatpak) und erkennt selbst, ob Internet da ist. Ohne Netz läuft eine Offline-Variante.
+
+> Weiterentwicklung meines ersten Autoinstall-Projekts für Ubuntu 24.04, mit klarer Aufteilung in Phasen und echtem Offline-Betrieb.
 
 ---
 
@@ -68,12 +61,13 @@ zur Einrichtung in Claude und Gemini.
 
 | Bereich | Technologien |
 |---|---|
-| Entwicklung | Python, SQLite, DDD, OOP, Unit-Tests |
+| Entwicklung | Python, JavaScript, SQLite, DDD, OOP, Unit-Tests |
+| Web-Apps | PWA, Service Worker, three.js, HTML/CSS ohne Framework, Puppeteer |
 | Linux / Sysadmin | Ubuntu, CachyOS, Shell-Scripting, cloud-init, LUKS, TPM 2.0, KVM |
-| Automatisierung | Autoinstall-YAML, Postinstall-Scripting, Bash |
+| Automatisierung | Autoinstall-YAML, Postinstall-Scripting, Bash, GitHub Actions |
 | Dokumentation | Markdown, strukturierte Wissensvermittlung, IHK-Curriculum |
-| KI / LLM | Claude Skills, Gemini Gems, Prompt Engineering |
-| Tools | Git, VS Code, QEMU/Virt-Manager, Flatpak |
+| KI / LLM | Claude Code, Claude Skills, Gemini Gems, Prompt Engineering |
+| Tools | Git, GitHub Pages, VS Code, QEMU/Virt-Manager, Flatpak |
 
 ---
 
