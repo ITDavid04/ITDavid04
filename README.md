@@ -61,13 +61,14 @@ Vollautomatische Installation von Ubuntu 26.04 für Schulungsrechner. Die Autoin
 
 | Bereich | Technologien |
 |---|---|
-| Entwicklung | Python, JavaScript, SQLite, DDD, OOP, Unit-Tests |
+| Entwicklung | Python, JavaScript, Node.js, SQLite, DDD, OOP, Unit-Tests |
 | Web-Apps | PWA, Service Worker, three.js, HTML/CSS ohne Framework, Puppeteer |
-| Linux / Sysadmin | Ubuntu, CachyOS, Shell-Scripting, cloud-init, LUKS, TPM 2.0, KVM |
+| Linux / Sysadmin | Ubuntu, CachyOS, Shell-Scripting, systemd (Dienste, Timer), cloud-init, LUKS, KVM |
 | Automatisierung | Autoinstall-YAML, Postinstall-Scripting, Bash, GitHub Actions |
 | Dokumentation | Markdown, strukturierte Wissensvermittlung, IHK-Curriculum |
-| KI / LLM | Claude Code, Claude Skills, Gemini Gems, Prompt Engineering |
-| Tools | Git, GitHub Pages, VS Code, QEMU/Virt-Manager, Flatpak |
+| KI / LLM | Claude Code, KI-Agenten, Claude Skills, Gemini Gems, Piper-TTS (lokale Sprachausgabe) |
+| Tools | Git, GitHub Pages, Docker, VS Code, QEMU/Virt-Manager |
+| Im Aufbau | Lokale KI mit Ollama und Whisper, Reverse Engineering |
 
 ---
 
