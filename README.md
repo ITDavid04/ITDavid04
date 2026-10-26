@@ -3,6 +3,8 @@
 IT-Umschüler im zweiten Jahr der Ausbildung zum **Fachinformatiker Anwendungsentwicklung (FIAE)**  
 📍 Hamburg · 🎓 IHK-Abschluss 2027 · 🐧 Linux Daily Driver
 
+🧪 **Portfolio:** [Creative Tech Lab](https://itdavid04.github.io/Creative_Tech_Lab/), meine Projekte als Versuchsprotokolle, mit Lebenslauf und Kontakt
+
 Ich bringe einen handwerklichen Hintergrund mit und habe den Sprung in die IT bewusst gewählt.  
 Mein Fokus liegt auf Anwendungsentwicklung, Linux und Automatisierung. Zuletzt baue ich vor allem Web-Apps, die beim Lernen in der Umschulung helfen und auf dem Handy auch offline laufen.
 
