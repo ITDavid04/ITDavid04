@@ -26,13 +26,15 @@ Ein GitHub-Actions-Workflow holt jede Nacht die neuen Artikel, baut die App, tes
 ---
 
 ### ⚔️ [Prüfungsprügler](https://github.com/ITDavid04/Souls_Pruefungspruegler)
-**JavaScript · PWA · Lernkasten**
+**JavaScript · PWA · Python · Lernkasten**
 
-Lernkarten für die AP1 (Lernfeld 1 bis 6) als Souls-like fürs Handy, mit 434 Karten. Richtig bringt Seelen, falsch kostet Leben. Wer stirbt, lässt seine Seelen bei der Karte liegen, die ihn erledigt hat, und holt sie sich im nächsten Gang zurück. Ein Gang hat zehn Karten und passt in eine Bahnfahrt, nach drei Lagerfeuern wartet der Boss des Lernfelds. Dahinter steckt ein Lernkasten mit fünf Fächern (Wiederholung nach 0, 1, 3, 7 und 14 Tagen). Ohne Framework gebaut, der Spielstand bleibt auf dem Gerät.
+Lernkarten für die AP1 und AP2 als Souls-like fürs Handy, mit 1134 Karten. Richtig bringt Seelen, falsch kostet Leben. Wer stirbt, lässt seine Seelen bei der Karte liegen, die ihn erledigt hat, und holt sie sich im nächsten Gang zurück. Die Reise folgt Dante: sechs Höllenkreise für die AP1, der Läuterungsberg für die AP2, je Lernfeld ein Boss und ganz oben der Prüfungsausschuss. Abseits des Weges warten die Katakomben der Kürzel mit 304 Abkürzungen, das Pixelparadies mit sieben Inseln, Rätsel zwischen den Karten und eine Werkstatt zum Ausprobieren. Das ganze Spiel gibt es in zwei Stilen: **Souls** (düster, gemalt) oder **Pixel** (alles in 8 Bit), umschaltbar auf dem Titel. Dahinter steckt ein Lernkasten mit fünf Fächern (Wiederholung nach 0, 1, 3, 7 und 14 Tagen). Ohne Framework gebaut, läuft offline, der Spielstand bleibt auf dem Gerät.
 
 ▶️ **Live:** [itdavid04.github.io/Souls_Pruefungspruegler](https://itdavid04.github.io/Souls_Pruefungspruegler/)
 
-> Stand: Prototyp vom Kernablauf. Geplant sind die AP2-Karten und der Prüfungsausschuss als letzter Boss.
+🎬 **Werbespot:** [im Creative Tech Lab](https://itdavid04.github.io/Creative_Tech_Lab/#pruefungspruegler)
+
+> Stand: Prototyp mit der ganzen Reise von der AP1 bis zum Prüfungsausschuss.
 
 ---
 
