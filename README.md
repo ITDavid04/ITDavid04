@@ -17,7 +17,7 @@ Hier meine aktuellen Projekte, das neueste zuerst.
 ### 📚 [Wiki-APP](https://github.com/ITDavid04/Wiki-APP)
 **JavaScript · PWA · three.js · GitHub Actions**
 
-Das Lern-Wiki unseres Umschulungsteams als installierbare Web-App für Handy und Desktop. Auf der Startseite wächst beim Scrollen eine 3D-Ranke mit, jedes Blatt ist ein Artikel. Artikel lassen sich direkt in der App lesen, mit Formeln (KaTeX) und farbig markierter Prüfungsrelevanz nach Ampel. Pro Artikel merkt sich die App den Lernstand, ein Prüfungsmodus zeigt, was noch offen ist, und ein Leseausweis sammelt Stempel für Meilensteine. Nach dem ersten Besuch läuft alles offline. Fehler in einem Artikel lassen sich aus der App heraus als GitHub-Issue melden.
+Das freie Lern-Wiki für Fachinformatiker als installierbare Web-App für Handy und Desktop. Auf der Startseite wächst beim Scrollen eine 3D-Ranke mit, jedes Blatt ist ein Artikel. Artikel lassen sich direkt in der App lesen, mit Formeln (KaTeX) und farbig markierter Prüfungsrelevanz nach Ampel. Pro Artikel merkt sich die App den Lernstand, ein Prüfungsmodus zeigt, was noch offen ist, und ein Leseausweis sammelt Stempel für Meilensteine. Nach dem ersten Besuch läuft alles offline. Fehler in einem Artikel lassen sich aus der App heraus als GitHub-Issue melden.
 
 Ein GitHub-Actions-Workflow holt jede Nacht die neuen Artikel, baut die App, testet sie automatisch im Browser (Puppeteer) und veröffentlicht sie auf GitHub Pages. Die Versionsnummer zählt sich dabei selbst hoch.
 
